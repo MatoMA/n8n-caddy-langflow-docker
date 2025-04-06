@@ -3,3 +3,9 @@ n8n.<domain>.<suffix> {
       flush_interval -1
     }
 }
+
+langflow.<domain>.<suffix> {
+    reverse_proxy langflow:7860 {
+      flush_interval -1
+    }
+}
